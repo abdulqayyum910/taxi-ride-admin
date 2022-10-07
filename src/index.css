@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.my-container {
+  margin-top: 5%;
+  
+}
+.header {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.header div {
+  margin-right: 40px;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+}
+
+.active {
+  color: tomato;
+}

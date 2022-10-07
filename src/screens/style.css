@@ -1,0 +1,95 @@
+.shift-filter-container {
+    width: 100%;
+   
+    padding: 10px;
+    background-color: #fff;
+    border: .2px solid rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.mb-3 {
+    margin: 10px;
+    width: calc(25% - 20px);
+}
+
+.loading {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+   
+}
+
+.link {
+    cursor: pointer;
+}
+
+.flex-row {
+    display: flex;
+  
+  
+}
+
+.icon {
+    flex:1;
+    margin-left: 15px;
+   
+   
+}
+.box{
+   flex:1
+  
+
+}
+
+
+ .box-label {
+    font-weight: 500;
+    font-size: 14px;
+    color:grey;
+    margin:2px 0;
+}
+
+ .box-value {
+    font-weight: 700;
+    font-size: 14px;
+    color:black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.calulatedBox {
+    width: calc(16.6% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+   
+}
+
+.edit-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: .2px solid rgba(0,0,0,0.1);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
